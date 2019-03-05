@@ -31,10 +31,14 @@ mem4 = Redvelvet("Joy", 22, 167, "A")
 mem5 = Redvelvet("Yeri", 19, 159, 'O')
 
 
+"This will create fift member of redvelvet class"
+mem6 = Redvelvet("Su", 27, 182, 'A')
+
 mem1.displayRedvelvet()
 mem2.displayRedvelvet()
 mem3.displayRedvelvet()
 mem4.displayRedvelvet()
 mem5.displayRedvelvet()
+mem6.displayRedvelvet()
 
 print "Total number of Redvelvet %d" % Redvelvet.memCount
